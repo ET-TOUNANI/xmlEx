@@ -1,0 +1,10 @@
+<svg height="300" width="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="basicPattern" viewBox="0,0,300,400" width="10%" height="10%" patternUnits="userSpaceOnUse">
+            <rect  width="20" height="20" stroke= "#333333" stroke-width="2" fill="black" transform="rotate(45)"  />
+
+        </pattern>
+  </defs>
+  <rect x="10" y="10" width="400" height="200"
+  stroke= "#333333" stroke-width="2" fill="url(#basicPattern)" />
+  </svg>

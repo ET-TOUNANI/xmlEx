@@ -1,10 +1,12 @@
-<svg height="300" width="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <pattern id="basicPattern" viewBox="0,0,300,400" width="10%" height="10%" patternUnits="userSpaceOnUse">
-            <rect  width="20" height="20" stroke= "#333333" stroke-width="2" fill="black" transform="rotate(45)"  />
 
+<svg width="400" height="220" xmlns="http://www.w3.org/2000/svg">
+
+        <pattern id="pat0" width="36" height="31"
+        patternUnits="userSpaceOnUse" >
+        <rect x="12" y="-10" width="22" height="22" transform="rotate(45)" />
         </pattern>
-  </defs>
-  <rect x="10" y="10" width="400" height="200"
-  stroke= "#333333" stroke-width="2" fill="url(#basicPattern)" />
-  </svg>
+
+        <rect x="34" y="32" width="300" height="187" style="stroke:black; stroke-width: 6px"
+        fill="url(#pat0)"></rect>
+
+        </svg >  
